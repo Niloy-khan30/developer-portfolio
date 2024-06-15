@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-h2{
+.header-sec h2{
     margin-left:200px;
     margin-top: 50px;
     font-size: 50px;
@@ -23,7 +23,7 @@ h2{
     color: rgb(255, 123, 0);
 
 }
-ul{
+.header-sec ul{
     display: flex;
     list-style: none;
     margin-right:200px;
@@ -88,4 +88,14 @@ li{
     color:rgb(255, 123, 0);
     border-radius: 5px;
     border:1px solid rgb(255, 123, 0);
+}
+
+.about-me{
+    margin:100px 200px;
+    background-color: rgb(255, 239, 209);
+}
+
+.about-me h2{
+    text-align: center;
+    padding: 100px 0;
 }
